@@ -37,15 +37,18 @@ a {
     border-top-right-radius: 4px;
     max-width: 300px;
     font-size: smaller;
+    margin-bottom: 50px;
   }
 
   .quotes-container {
+    background-color: black;
     border: 3px solid #f1f1f1;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     max-width: 300px;
     font-size: smaller;
-    margin: 50px auto;
+    /* margin: 50px auto; */
+    position: absolute;
   }
 
   .top {
@@ -56,4 +59,38 @@ a {
   button {
     margin: 10px;
     border-radius: 10px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #image-1 {
+    border: 3px solid #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    max-width: 300px;
+    height: 329px;
+    /* added for draggable element feature */
+    position: absolute;
+  }
+  
+  #image-2 {
+    border: 3px solid #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    max-width: 200px;
+    height: 229px;
+    /* added for draggable element feature */
+    position: absolute;
+  }
+  
+  #image-3 {
+    border: 3px solid #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    max-width: 100px;
+    height: 129px;
+    /* added for draggable element feature */
+    position: absolute;
   }
