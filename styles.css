@@ -1,12 +1,30 @@
+/* bold */
 @font-face {
-    font-family: AberMono;
-    src: local(AberMono-Bold.otf), local(AberMono-Light.otf),local(AberMono-Regular.otf);
+  font-family: "AberMono";
+  src:url('abermono-font/AberMono-Bold.otf') format('opentype'),
+      url('abermono-font/AberMono-Bold.woff') format('woff'),
+      url('abermono-font/AberMono-Bold.woff2') format('woff2');
+  }
+
+/* light */
+@font-face {
+  font-family: "AberMono";
+  src:url('abermono-font/AberMono-Light.otf') format('opentype'),
+      url('abermono-font/AberMono-Light.woff') format('woff'),
+      url('abermono-font/AberMono-Light.woff2') format('woff2');
+}
+
+/* regular */
+@font-face {
+  font-family: "AberMono";
+  src:url('abermono-font/AberMono-Regular.otf') format('opentype'),
+      url('abermono-font/AberMono-Regular.woff') format('woff'),
+      url('abermono-font/AberMono-Regular.woff2') format('woff2');
   }
 
 body {
     background-color: black;
     color: white;
-    font-family: AberMono-Regular;
 }
 
 a {
@@ -16,11 +34,13 @@ a {
   .description-content {
     padding: 10px;
     max-width: 500px;
+    font-family: "AberMono";
   }
 
   .quotes-content {
     padding: 10px;
     max-width: 300px;
+    font-family: "AberMono";
   }
 
   .dot {
@@ -41,6 +61,7 @@ a {
   }
 
   .quotes-container {
+    font-family: "AberMono-Regular";
     background-color: black;
     border: 3px solid #f1f1f1;
     border-top-left-radius: 4px;
