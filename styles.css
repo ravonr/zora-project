@@ -22,7 +22,16 @@
       url('abermono-font/AberMono-Regular.woff2') format('woff2');
   }
 
-body {
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  body {
     background-color: black;
     color: white;
 }
@@ -37,20 +46,6 @@ a {
     font-family: "AberMono";
   }
 
-  .quotes-content {
-    padding: 10px;
-    max-width: 300px;
-    font-family: "AberMono";
-  }
-
-  .dot {
-    height: 12px;
-    width: 12px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-  }
-
   .description-container {
     border: 3px solid #f1f1f1;
     border-top-left-radius: 4px;
@@ -58,6 +53,14 @@ a {
     max-width: 300px;
     font-size: smaller;
     margin-bottom: 50px;
+    background-color: black;
+    position: fixed;
+  }
+
+  .quotes-content {
+    padding: 10px;
+    max-width: 300px;
+    font-family: "AberMono";
   }
 
   .quotes-container {
@@ -70,6 +73,14 @@ a {
     font-size: smaller;
     /* margin: 50px auto; */
     position: absolute;
+  }
+
+  .dot {
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
   }
 
   .top {
@@ -104,6 +115,7 @@ a {
     height: 229px;
     /* added for draggable element feature */
     position: absolute;
+    object-fit: contain;
   }
   
   #image-3 {
