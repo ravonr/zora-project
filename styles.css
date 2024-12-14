@@ -57,13 +57,13 @@ a {
     position: fixed;
   }
 
-  .quotes-content {
+  /*.quotes-content {
     padding: 10px;
     max-width: 300px;
     font-family: "AberMono";
   }
 
-  .quotes-container {
+  /*.quotes-container {
     font-family: "AberMono-Regular";
     background-color: black;
     border: 3px solid #f1f1f1;
@@ -71,9 +71,9 @@ a {
     border-top-right-radius: 4px;
     max-width: 300px;
     font-size: smaller;
-    /* margin: 50px auto; */
+    /* margin: 50px auto; 
     position: absolute;
-  }
+  } */
 
   .dot {
     height: 12px;
